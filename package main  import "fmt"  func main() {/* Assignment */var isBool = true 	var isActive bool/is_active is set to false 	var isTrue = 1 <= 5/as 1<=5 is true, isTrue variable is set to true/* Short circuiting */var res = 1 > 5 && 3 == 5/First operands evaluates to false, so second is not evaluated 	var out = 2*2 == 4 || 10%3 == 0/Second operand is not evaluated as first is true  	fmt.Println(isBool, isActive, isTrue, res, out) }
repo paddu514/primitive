@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	
+	var isBool = true
+	var isActive bool   
+	var isTrue = 1 <= 5 
+
+	
+	var res = 1 > 5 && 3 == 5      
+	var out = 2*2 == 4 || 10%3 == 0 
+
+	fmt.Println(isBool, isActive, isTrue, res, out)
+}
